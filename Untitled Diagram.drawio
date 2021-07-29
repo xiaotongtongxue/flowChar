@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-07-29T02:02:58.978Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="F9mlEb-urtXZjCeOZF1W" version="14.9.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-29T13:27:01.199Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="VZzVFZcQM6x4oHMzCrUw" version="14.9.3" type="github">
   <diagram id="8HJ7aUhL0o4wAt0HdWRR" name="Page-1">
-    <mxGraphModel dx="979" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="979" dy="553" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -40,7 +40,7 @@
         <mxCell id="i6sxjxo-gBJiL7IOT36x-16" value="Attribute&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;span&gt;constraints&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;div&gt;&lt;span&gt;priority&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;" parent="1" vertex="1">
           <mxGeometry x="140" y="130" width="90" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="i6sxjxo-gBJiL7IOT36x-17" value="&lt;div&gt;&lt;span&gt;Space constraint&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp;priority&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;" parent="1" vertex="1">
+        <mxCell id="i6sxjxo-gBJiL7IOT36x-17" value="&lt;div&gt;&lt;span&gt;Spatial constraints&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp;priority&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;" parent="1" vertex="1">
           <mxGeometry x="137.5" y="170" width="92.5" height="20" as="geometry" />
         </mxCell>
         <mxCell id="i6sxjxo-gBJiL7IOT36x-21" value="" style="endArrow=none;html=1;fontFamily=Times New Roman;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="i6sxjxo-gBJiL7IOT36x-17" edge="1">
@@ -154,8 +154,8 @@
             <mxPoint x="510" y="219.76" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="13GSF1PAoy-0XcD6c8-7-64" value="&lt;div&gt;Count X m&lt;/div&gt;&lt;div&gt;Or areas X s&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=1;fontFamily=Times New Roman;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="414" y="190" width="90" height="60" as="geometry" />
+        <mxCell id="13GSF1PAoy-0XcD6c8-7-64" value="Satisfy the &amp;nbsp;constraints?" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=1;fontFamily=Times New Roman;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="410" y="190" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="13GSF1PAoy-0XcD6c8-7-65" value="" style="endArrow=classic;html=1;fontFamily=Times New Roman;dashed=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="13GSF1PAoy-0XcD6c8-7-64" target="13GSF1PAoy-0XcD6c8-7-66" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -182,7 +182,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="13GSF1PAoy-0XcD6c8-7-70" value="too scattered?" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=1;fontFamily=Times New Roman;fontColor=#000000;" parent="1" vertex="1">
+        <mxCell id="13GSF1PAoy-0XcD6c8-7-70" value="Satisfy &lt;br&gt;the rule?" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=1;fontFamily=Times New Roman;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="420" y="280" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="13GSF1PAoy-0XcD6c8-7-71" value="" style="endArrow=classic;html=1;fontFamily=Times New Roman;dashed=1;" parent="1" source="13GSF1PAoy-0XcD6c8-7-70" edge="1">
@@ -374,7 +374,7 @@
         <mxCell id="13GSF1PAoy-0XcD6c8-7-124" value="The second step of the&amp;nbsp;&lt;br&gt;recognition process" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;" parent="1" vertex="1">
           <mxGeometry x="107.5" y="320" width="150" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="13GSF1PAoy-0XcD6c8-7-125" value="extracting spatial structure process" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;" parent="1" vertex="1">
+        <mxCell id="13GSF1PAoy-0XcD6c8-7-125" value="Extracting spatial structure process" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;" parent="1" vertex="1">
           <mxGeometry x="132.5" y="350" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="13GSF1PAoy-0XcD6c8-7-128" value="SDB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontFamily=Times New Roman;fillColor=#CCCCCC;" parent="1" vertex="1">
@@ -392,10 +392,10 @@
         <mxCell id="13GSF1PAoy-0XcD6c8-7-135" value="" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;fontFamily=Times New Roman;direction=west;" parent="1" vertex="1">
           <mxGeometry x="630" y="350" width="10" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="13GSF1PAoy-0XcD6c8-7-138" value="&amp;nbsp;&lt;br&gt;recognition process" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;" parent="1" vertex="1">
+        <mxCell id="13GSF1PAoy-0XcD6c8-7-138" value="&amp;nbsp;&lt;br&gt;Recognition process" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;" parent="1" vertex="1">
           <mxGeometry x="630" y="175" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="13GSF1PAoy-0XcD6c8-7-139" value="extracting spatial structure process" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;" parent="1" vertex="1">
+        <mxCell id="13GSF1PAoy-0XcD6c8-7-139" value="Extracting spatial structure process" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;" parent="1" vertex="1">
           <mxGeometry x="630" y="450" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="13GSF1PAoy-0XcD6c8-7-140" value="Legend" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;" parent="1" vertex="1">
